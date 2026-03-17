@@ -1,0 +1,54 @@
+# =========================
+# Terraform
+# =========================
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+
+# Crash logs
+crash.log
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# =========================
+# Terraform backup files
+# =========================
+*.backup
+
+# =========================
+# Local IDE / OS
+# =========================
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# =========================
+# Docker related (optional)
+# =========================
+docker-compose.override.yml
+docker-compose.override.yaml
+docker/.env
+db/
+project/
+
+# =========================
+# Composer / PHP
+# =========================
+vendor/
+composer.lock
+
+# =========================
+# Node / JS / Sage
+# =========================
+node_modules/
+dist/
+.build/
