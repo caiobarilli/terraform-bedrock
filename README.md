@@ -63,8 +63,9 @@ Antes de iniciar, instale:
 Crie a pasta para o projeto WordPress Bedrock:
 
 ```
-mkdir -p ./project       # cria a pasta
-sudo chown -R 1000:1000 ./project   # dá permissão para o container (UID 1000)
+mkdir -p ./project
+
+sudo chown -R 1000:1000 ./project
 ```
 
 Entre no diretório Terraform:
