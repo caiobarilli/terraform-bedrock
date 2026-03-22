@@ -136,8 +136,6 @@ composer create-project roots/bedrock . --prefer-dist
 Instale o Sage:
 
 ```
-cd ./web/app/themes
-
 composer create-project roots/sage mytheme
 ```
 
