@@ -127,11 +127,11 @@ resource "docker_container" "node" {
     name = docker_network.bedrock_network.name
   }
 
-  working_dir = "/var/www/html"
+  working_dir = "/var/www/html/web/app/themes"
 
   volumes {
-    host_path      = abspath("${path.module}/../project")
-    container_path = "/var/www/html"
+    host_path      = abspath("${path.module}/../project/web/app/themes")
+    container_path = "/var/www/html/web/app/themes"
   }
 
   ports {
